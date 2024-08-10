@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DiagnosticoApp",
-    "slug": "DiagnosticoApp",
+    "name": "PC Maintenance Manager CIS",
+    "slug": "pc-maintenance-manager-cis",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yoelabdias.pcmaintenancemanagercis"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d90490a-a15e-4f70-990c-b187ded7b272"
+      }
+    },
+    "owner": "yoelabdias",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0d90490a-a15e-4f70-990c-b187ded7b272"
     }
   }
 }
